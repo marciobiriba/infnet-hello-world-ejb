@@ -8,7 +8,7 @@ import br.edu.infnet.domain.Aluno;
 /**
  * Session Bean implementation class AlunoDAO
  */
-@Stateless
+
 @Local
 public interface AlunoDAO {
 	

@@ -46,5 +46,6 @@ public class ServeletCadastrarAluno extends HttpServlet {
 		alunoCadastro.setNome("Andre");
 		alunoCadastro.setTurma("POS");
 		alunoDto.cadastrar(alunoCadastro);
+		
 	}
 }

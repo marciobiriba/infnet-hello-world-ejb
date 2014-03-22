@@ -1,10 +1,12 @@
 package br.edu.infnet.dao;
 
+import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import br.edu.infnet.domain.Aluno;
 
+@Stateless
 public class AlunoDAOImpl implements AlunoDAO{
 	@PersistenceContext(unitName="infnet-hello-ejb")
 	private EntityManager em;
